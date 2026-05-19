@@ -11,7 +11,7 @@ API_KEY = os.getenv("GROQ_API_KEY")
 
 if not API_KEY:
     # Fallback pour le développement local
-    API_KEY = "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" 
+    API_KEY = "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" 
 
 client = Groq(api_key=API_KEY)
 
